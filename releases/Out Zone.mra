@@ -7,7 +7,7 @@
   <manufacturer>Toaplan</manufacturer>
   <category>Run 'n Gun</category>
   <rbf>zerowing</rbf>
-
+  
   <buttons names="Shot,Bomb,Start,Coin" default="A,B,R,L"/>
 
   <switches default="00,00,00,00">
@@ -44,7 +44,7 @@
     </interleave>
 
     <!-- gfx2 - starts at 0x180000 -->
-    <interleave output="32">
+    <interleave output="32"> 
         <part name="tp-018_rom2.bin" crc="6bb72d16" map="0001"/>
         <part name="tp-018_rom1.bin" crc="0934782d" map="0010"/>
         <part name="tp-018_rom3.bin" crc="ec903c07" map="0100"/>
